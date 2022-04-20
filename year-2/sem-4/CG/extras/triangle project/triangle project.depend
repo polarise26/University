@@ -925,3 +925,10 @@
 	<_mingw_off_t.h>
 	<string.h>
 
+1649397984 source:c:\users\kannu\onedrive\documents\github repos\university\year-2\sem-4\cg\extras\triangle project\main.cpp
+	<GL/glut.h>
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<dos.h>
+

@@ -7,6 +7,8 @@ int main()
 {
     srand(time(0));
 
+    printf("This is Karan Taneja's code. SAP ID: 5000084399.");
+
     int demand[10], maxBand = 9, nDevices = 3;
     float AvgBandwidth = maxBand / nDevices, bandProvision[10];
     float excessBandwidth = 0, condition[10], count = 0;

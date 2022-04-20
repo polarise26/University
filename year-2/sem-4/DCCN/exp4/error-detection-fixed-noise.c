@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #define MAX_SIZE 6
 
-int arrayToNum(int *, int);
+int arrToN(int *, int);
 
 int main()
 {
@@ -14,7 +14,7 @@ int main()
     int noise[] = {0, 0, 0, 0, 0, 1};
     int resultantFrame[MAX_SIZE];
 
-    printf("Code by Desh Iyer, SAP Id 500081889\n");
+    printf("Code by Karan Taneja, SAP ID: 500084399.\n");
 
     printf("Enter the size of the data frame: ");
     scanf("%d", &dataFrameSize);
@@ -37,8 +37,8 @@ int main()
         printf("%d ", noise[i]);
     }
 
-    int intDataFrame = arrayToNum(dataFrame, dataFrameSize);
-    int intNoise = arrayToNum(noise, dataFrameSize);
+    int intDataFrame = arrToN(dataFrame, dataFrameSize);
+    int intNoise = arrToN(noise, dataFrameSize);
 
     int binary1 = intDataFrame;
     int binary2 = intNoise;
@@ -61,7 +61,7 @@ int main()
         printf("%d ", resultantFrame[i--]);
 
     int sizeResultantDataFrame = sizeof(resultantFrame) / sizeof(resultantFrame[0]);
-    int intResultantDataFrame = arrayToNum(resultantFrame, sizeResultantDataFrame);
+    int intResultantDataFrame = arrToN(resultantFrame, sizeResultantDataFrame);
 
     if (intDataFrame == intResultantDataFrame)
     {
@@ -73,7 +73,7 @@ int main()
     }
 }
 
-int arrayToNum(int arr[], int n)
+int arrToN(int arr[], int n)
 {
     char str[6][3];
     char number[13] = {'\n'};

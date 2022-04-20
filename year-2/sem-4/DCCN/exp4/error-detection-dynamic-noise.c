@@ -22,7 +22,7 @@ int main()
     int dataRate, dataSize;
     int k = 0, sum = 0, tf, tb;
 
-    printf("Code by Desh Iyer, SAP Id 500081889\n");
+    printf("Code by Karan Taneja, SAP ID: 500084399.\n");
 
     printf("Input Data Size: ");
     scanf("%d", &dataSize);
@@ -82,15 +82,6 @@ int main()
     printf("\n\nResultant Frame = Data Frame + Noise:\n");
     while (i >= 0)
         printf("%d ", resultantFrame[i--]);
-
-    // int sizeResultantDataFrame = sizeof(resultantFrame) / sizeof(resultantFrame[0]);
-    // int intResultantDataFrame = arrayToNum(resultantFrame, sizeResultantDataFrame);
-
-    // if (intDataFrame == intResultantDataFrame) {
-    //     printf("\n\nThere IS NO error in the received data!");
-    // } else {
-    //     printf("\n\nThere IS an error in the received data!");
-    // }
 }
 
 int arrayToNum(int arr[], int n)
