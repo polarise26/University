@@ -7,10 +7,9 @@ int main()
 {
     srand(time(0));
 
-    printf("This is Karan Taneja's code. SAP ID: 5000084399.")
+    printf("This is Karan Taneja's code. SAP ID: 5000084399.");
+    int deviceDemand[10], maxBandwidth = 9, numOfDevice = 3;
 
-        int deviceDemand[10],
-        maxBandwidth = 9, numOfDevice = 3;
     float avgBandwidth = maxBandwidth / numOfDevice, bandwidthProvide[10];
 
     for (int i = 0; i < numOfDevice; i++)
@@ -66,4 +65,5 @@ int main()
             printf("Device %d: (%f mbps provided) Demand Not Satisfied\n", i + 1, bandwidthProvide[i]);
         }
     }
+    return 0;
 }
