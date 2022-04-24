@@ -17,7 +17,7 @@ int main()
         deviceDemand[i] = rand() % 5 + 1;
     }
 
-    printf("Bandwidth limit of the channel: %d\n", maxBandwidth);
+    printf("\nBandwidth limit of the channel: %d\n", maxBandwidth);
 
     for (int i = 0; i < numOfDevice; i++)
     {
@@ -56,7 +56,7 @@ int main()
 
     for (int i = 0; i < numOfDevice; i++)
     {
-        if (deviceDemand[i] == bandwidthProvide[i])
+        if (condition[i] == 1)
         {
             printf("Device %d: (%f mbps provided) Demand Satisfied\n", i + 1, bandwidthProvide[i]);
         }
