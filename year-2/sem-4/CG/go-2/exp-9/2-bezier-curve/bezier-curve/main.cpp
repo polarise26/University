@@ -42,7 +42,7 @@ int main(int argc, char** argv)
  printf("Enter the value of y4 : ");
  scanf("%f",&y5);
  glutInit(&argc, argv);
-53
+
  glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
  glutInitWindowSize(750, 750);
  glutInitWindowPosition(80, 54);
